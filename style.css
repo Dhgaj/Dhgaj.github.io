@@ -1,0 +1,78 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: #f8f9fa;
+  color: #222;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+main, .page-content {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  padding: 2.5em 2em;
+}
+
+h1, h2, h3, h4 {
+  color: #2d6cdf;
+  margin-top: 1.5em;
+}
+
+hr {
+  border: none;
+  border-top: 2px dashed #e0e0e0;
+  margin: 2em 0;
+}
+
+ul {
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+blockquote {
+  background: #f0f4fa;
+  border-left: 4px solid #2d6cdf;
+  margin: 1.5em 0;
+  padding: 1em 1.5em;
+  color: #555;
+}
+
+/* 技能标签样式 */
+section.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7em;
+  list-style: none;
+  padding: 0;
+}
+section.skills li {
+  background: #e3eafc;
+  color: #2d6cdf;
+  border-radius: 16px;
+  padding: 0.3em 1em;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+/* 快速链接样式 */
+.links ul {
+  display: flex;
+  gap: 1.5em;
+  list-style: none;
+  padding: 0;
+}
+.links li {
+  font-size: 1.1em;
+}
+
+@media (max-width: 600px) {
+  main, .page-content {
+    padding: 1em 0.5em;
+  }
+}

@@ -3,6 +3,9 @@ layout: home
 title: Welcome to My Blog
 ---
 
+<!-- 引入自定义样式 -->
+<link rel="stylesheet" href="/style.css">
+
 
 ## 欢迎来到我的个人空间！👋
 
@@ -22,6 +25,29 @@ title: Welcome to My Blog
 可以通过[GitHub](https://github.com/Dhgaj)与我联系，或者在社交媒体上与我互动！
 
 ---
+
+
+## 🧑‍💻 关于我
+
+- 计算机爱好者，热衷于探索新技术和编程语言
+- 喜欢开源、分享和持续学习
+- 关注前端、后端、AI 及自动化相关内容
+
+---
+
+## 📝 最新文章
+
+> 这里将展示我最新发布的文章，敬请期待！
+
+---
+
+## 🛠 技能标签
+
+- JavaScript / TypeScript
+- Python
+- 前端开发（React, Vue）
+- 后端开发（Node.js, Express）
+- 数据分析与自动化
 
 
 ### 🔗 快速链接

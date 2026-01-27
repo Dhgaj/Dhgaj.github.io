@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Dhgaj's Personal Portfolio - A showcase of projects and skills."
+    />
+    <title>Dhgaj | Developer Portfolio</title>
+
+    <!-- 谷歌字体 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 自定义样式表 -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- 图标库 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- 背景元素 -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="grid-overlay"></div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar glass">
+      <div class="container nav-container">
+        <a href="#" class="logo">Dhgaj<span class="dot">.</span></a>
+        <ul class="nav-links">
+          <li><a href="#home">首页</a></li>
+          <li><a href="#about">关于</a></li>
+          <li><a href="#projects">项目</a></li>
+          <li><a href="#contact">联系</a></li>
+        </ul>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 首屏区域 (Hero Section) -->
+    <header id="home" class="hero section">
+      <div class="container hero-content">
+        <span class="badge fade-in-up">Welcome to my space</span>
+        <h1 class="fade-in-up delay-1">
+          Creating Digital <br /><span class="gradient-text">Experiences</span>
+        </h1>
+        <p class="fade-in-up delay-2">
+          我是一名热衷于构建创新解决方案、想要通过代码改变世界的开发者。探索我的项目，了解我如何将想法转化为现实。
+        </p>
+        <div class="cta-group fade-in-up delay-3">
+          <a href="#projects" class="btn btn-primary">查看项目</a>
+          <a
+            href="https://github.com/Dhgaj"
+            target="_blank"
+            class="btn btn-secondary"
+            ><i class="fab fa-github"></i> GitHub</a
+          >
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <div class="mouse"></div>
+        <p>Scroll Down</p>
+      </div>
+    </header>
+
+    <!-- 关于我区域 -->
+    <section id="about" class="about section">
+      <div class="container">
+        <h2 class="section-title fade-in">关于我 <span class="line"></span></h2>
+        <div class="about-grid">
+          <div class="about-card glass fade-in">
+            <i class="fas fa-code icon"></i>
+            <h3>技术栈</h3>
+            <p>
+              熟练掌握 HTML, CSS, JavaScript
+              以及现代前端框架。热衷于探索新技术。
+            </p>
+          </div>
+          <div class="about-card glass fade-in delay-1">
+            <i class="fas fa-layer-group icon"></i>
+            <h3>设计思维</h3>
+            <p>注重用户体验与界面美学，致力于创造既实用又美观的产品。</p>
+          </div>
+          <div class="about-card glass fade-in delay-2">
+            <i class="fas fa-rocket icon"></i>
+            <h3>持续交付</h3>
+            <p>关注代码质量与性能优化，确保项目稳定高效运行。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 项目展示区域 -->
+    <section id="projects" class="projects section">
+      <div class="container">
+        <h2 class="section-title fade-in">
+          精选项目 <span class="line"></span>
+        </h2>
+        <div class="projects-grid" id="projects-container">
+          <!-- 动态加载内容 -->
+          <div class="loading-spinner">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>正在获取最新项目...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 联系我区域 -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="contact-box glass fade-in">
+          <h2>准备好开始了吗？</h2>
+          <p>无论是一个小想法还是一个大项目，我都乐意倾听。</p>
+          <a href="mailto:sifanlian@gmail.com" class="btn btn-primary glow"
+            >发送邮件</a
+          >
+
+          <div class="social-links">
+            <a href="https://github.com/Dhgaj" class="social-icon"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://discord.gg/AMXuUtmC" class="social-icon"
+              ><i class="fab fa-discord"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 页尾 -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <a href="#" class="logo">Dhgaj<span class="dot">.</span></a>
+            <p>构建数字体验，探索无限可能。</p>
+          </div>
+          <div class="footer-links">
+            <h4>快速链接</h4>
+            <ul>
+              <li><a href="#home">首页</a></li>
+              <li><a href="#about">关于</a></li>
+              <li><a href="#projects">项目</a></li>
+              <li><a href="#contact">联系</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h4>关注我</h4>
+            <div class="social-icons">
+              <a
+                href="https://github.com/Dhgaj"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://discord.gg/AMXuUtmC"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-discord"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Dhgaj. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
